@@ -1,0 +1,42 @@
+body {
+    max-width: 55em;
+    margin: 0 auto;
+  background-color: #f4e5c3;
+}
+
+header {
+  background-color: #9189e5;
+  text-align: right;
+  margin-top: -7vw;
+  padding-top: 10vw;
+  padding-bottom: 10vw;
+}
+
+header a, nav {
+  padding-right: 5vw;
+}
+
+h1 a {
+  color: #f4e5c3;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+li a {
+  color: #f4e5c3;
+  text-decoration: none;
+}
+
+main {
+  padding: 0;
+  background-color: #ffffff;
+  text-align: center;
+  margin: 4vw;
+}
+
+img {
+    width: 50vw;
+}
