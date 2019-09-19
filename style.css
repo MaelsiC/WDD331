@@ -1,11 +1,11 @@
 body {
     max-width: 55em;
     margin: 0 auto;
-    background-color: #f4e5c3;
+    background-color: #FAEBD7;
 }
 
 header {
-  background-color: #9189e5;
+  background-color: #6495ED;
   text-align: right;
   margin-top: -7vw;
   padding-top: 10vw;
@@ -17,7 +17,7 @@ header a, nav {
 }
 
 h1 a {
-  color: #f4e5c3;
+  color: #FAEBD7;
   text-decoration: none;
 }
 
@@ -26,7 +26,7 @@ ul {
 }
 
 li a {
-  color: #f4e5c3;
+  color: #FAEBD7;
   text-decoration: none;
 }
 
