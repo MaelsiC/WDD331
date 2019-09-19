@@ -52,3 +52,13 @@ img {
   max-width: 100%;
     width: 50vw;
 }
+
+
+/* LARGE SCREEN */
+@media screen and (min-width: 50em) {
+  body > div {
+    width: 80%;
+    max-width: 75em;
+    margin: 0 auto;
+  }
+}
