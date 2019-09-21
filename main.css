@@ -173,6 +173,22 @@ h2 > a:active {
     padding-right: 2vw;
   }
   
+  .post-date {
+    margin-bottom: 0;
+  }
+  
+  .post-content > p, .post-date {
+    font-size: 1.5em;
+  }
+  
+  h2 {
+    font-size: 3em;
+  }
+  
+  img {
+    padding-top: 5vw;
+  }
+  
   
   
 
