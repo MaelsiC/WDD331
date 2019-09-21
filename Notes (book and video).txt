@@ -1,0 +1,152 @@
+1. What is a function and what is its purpose?
+2. What do functions look like in the JavaScript language?
+3. What is an event?
+4. How do I execute a function when the user clicks 
+a button?
+
+"Do NOT fall into the common error of thinking your 
+application will talk to the computer." Interesting,
+I think we usually think that when programming with 
+anything other than HTML and CSS we forget that there
+is interaction with the user, with the display instead
+of back in the servers.
+
+1. "Functions are a type of operation." Functions are
+lines of code that perform a task, they perform the process
+for something in the order that is written or indicated.
+2. A function's structure is like this:
+	a. Name
+	b. Input
+	c. Output
+	d. The outline of the outcome
+
+'camel case' = Capitalize first letter of each new word
+except the first.
+
+Parentheses = Hold stuff that goes in.
+
+3. An event is when something, anything, happens. "Each time you press a key on a keyboard,
+click a mouse, touch a screen, or speak to a computer you generate an event."
+
+4. set onClick as the attribute inside the tag with the name of the function as its "value".
+
+
+---VIDEO NOTES---
+
+"If you design for the smallest, least powerful device first, and your core functionality. 
+That leads to simple, beautiful apps. If you do it the other way around, it'll be like 
+trying to put a marshmallow into a piggy bank, which is neither simple, nor beautiful."
+Joel Marsh - The Hipper Element
+
+People are using their phones more and more as if they were a full power computer; so now
+everything must be designed thinking about how the audience will use it. There are many 
+screen sizes now that are used with different purposes or on different circumstances.
+Small screens are use constantly because they are portable and convenient. "Single device
+to multiple devices per household."
+
+MOBILE IS THE NEW DESKTOP!
+
+Mobile First:
+	*Time consuming and costly for a full rebuild.
+	*Provides best experience across many devices.
+	*Address constraints of mobile size/bandwidth.
+	*Future friendly and ready for growth.
+
+THINGS TO REMEMBER:
+	* Desktop computer sales have been declining since 2011.
+	* You don't see people with their heads in laptops (Except designers and developers).
+	* Start small and scale up.
+	* Mobile is not a fad. (Is not going to dissapear).
+
+
+"It's really hard to design products by focus groups. A lot of times, people don't know
+what they want until you show it to them."
+Steve Jobs - Apple
+
+"Don't listen to what they say... observe whay they do..." and make it easier for them.
+
+To make a difference:
+
+	1. Be There
+	2. Be Useful
+	3. Be Quick
+
+User Experience & How it makes somebody feel.
+
+Reachability...
+	Put everything within reach of the users' fingers.
+
+"Speed Matters"
+Customers want it all as fast as possible, and "fast as possible" in their minds means
+instantly.
+
+To make this possible:
+	*Reduce image usage throughout sites/apps
+	*SVG/Webfonts are lower bandwidth
+	*Optimize and Minify (reduce white space) CSS and JS files
+	*GZIP files to eliminate unnecessary data
+
+
+"The trouble with software is... it sucks. That's not a nice thing to say... but it is
+fundamental truth. Software customers -- you, me, CIOs of multibillion-dollar companies...
+have learned to live with mediocre software. We do not count on software to be intuitively 
+easy to understand or to work consistently. Instead, we make do."
+Stewart Alsop - Venture Capitalist
+
+Make sure the most common buttons are within reach, usually the bottom part of the device.
+
+Placement Matters:
+	*Address reachability issues
+	*Created perception of speed
+	*Improved engagement rates
+	*Increased user satisfaction
+
+"Keep up to date on lastest trends. Mobile is evolving quickly."
+
+
+"[The constraints of Mobile] push you toward more focused, simplified solutions. You can
+only fit so much on the screen, people often have to wait for it, and they're unlikely
+to give you their full attention. So make it easy to understand and use and focus on the
+important things first. Mobile is a great forcing function for simplicity."
+Luke Wroblewski - Co-Founder of Polar and Bagcheck
+
+Make it simple so that people can use it.
+
+Make it to the users liking.
+
+
+"End-users, not technologies, shape the market. Consequently marketers need to stay abreast
+not only of technological developments but also of the way people respond to them."
+Matt Haig - Author
+
+Understand how people use their device.
+
+"Designers need to rewire their brains in regards to mobile..." STOP thinking they're
+the same as desktops.
+
+Make mobile ads better:
+	*Make them small and simple if inside the content.
+
+"The fallen state of our Internet is a direct, if unintentional, consequence of choosing
+advertising as the default model to support online content and services."
+Ethan Zuckerman - Creator of the Pop-up ad
+
+THINGS TO REMEMBER:
+	*Stop using Pop-ups/Pop-overs
+	*STOP USING POP-UPS/POP-OVERS
+	*Users don't visit your website to look at ads
+	*Keep it simple and sleek
+	*Make sure it's unobtrusive. Content first
+
+Think:
+What would I think if this pops up while I'm reading?
+
+
+
+
+
+
+
+
+
+
