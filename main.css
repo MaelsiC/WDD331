@@ -143,11 +143,37 @@ h2 > a:active {
     top: 0;
     left: 0;
     bottom: 0;
+    width: 20vw;
+  }
+  
+  header a, nav {
+    padding-right: 3vw;
+}
+  
+  h1 {
+    padding-left: 6vw;
+    display: flex;
+    align-items: flex-end;
+  }
+  
+  hr {
+    margin: 0 3vw;
+  }
+  
+  ul > li {
+    padding-bottom: 1vw;
+  }
+  
+  li > a {
+    padding-right: 0;
   }
   
   main {
-    padding-left: 23vw;
+    padding-left: 22vw;
+    padding-right: 2vw;
   }
+  
+  
   
 
   
