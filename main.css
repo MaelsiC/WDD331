@@ -133,9 +133,34 @@ h2 > a:active {
 
 /* LARGE SCREEN */
 @media screen and (min-width: 50em) {
-  body > div {
-    width: 80%;
-    max-width: 75em;
-    margin: 0 auto;
+  
+  body {
+    max-width: 100%;
   }
+  
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+  }
+  
+  main {
+    padding-left: 23vw;
+  }
+  
+
+  
 }
+
+
+
+
+
+
+
+
+
+
+
+
