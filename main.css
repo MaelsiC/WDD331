@@ -188,7 +188,11 @@ h2 > a:active {
   }
   
   img {
+    max-width: 100%;
+    width: 30vw;
     padding-top: 5vw;
+    padding-left: 8vw;
+    margin-left: 1vw;
   }
   
   
