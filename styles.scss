@@ -101,5 +101,35 @@ body {
     @include breakpoint(large) { background: red; }
     @include breakpoint(medium) { background: cyan; }
     @include breakpoint(small) { background: green; }
-    @include breakpoint(“max-width: 480px”) { background: yellow; }
-    }  
+    @include breakpoint(“max-width 480px”) {
+         background: yellow;
+    }
+}  
+
+    .myClass {
+        a {
+            &:link {
+                color: red;
+            }
+            &:visited {
+                color: purple;
+            }
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    @mixin center($width, $max-width) {
+        width: $width;
+    }
+
+    body {
+        //attributes & values
+        > div {
+            //attributes & values
+        }
+        @media (min-width: $break-small) {
+            
+        }
+    }

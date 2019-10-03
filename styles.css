@@ -1,17 +1,57 @@
-/* Error: expected ")".
- *     ,
- * 104 |     @include breakpoint(“max-width: 480px”) { background: yellow; }
- *     |                                   ^
- *     '
- *   styles.scss 104:35  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: expected ")".\a     \2577 \a 104 \2502      @include breakpoint(\201c max-width: 480px\201d ) { background: yellow; }\d\a     \2502                                    ^\a     \2575 \a   styles.scss 104:35  root stylesheet';
+@charset "UTF-8";
+body {
+  background-color: darkred;
 }
+
+fieldset > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+}
+
+#content {
+  width: 90%;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  background: white;
+}
+@media (max-width: 60em) {
+  body {
+    background: red;
+  }
+}
+@media (max-width: 31em) {
+  body {
+    background: cyan;
+  }
+}
+@media (max-width: 20em) {
+  body {
+    background: green;
+  }
+}
+@media (“max-width 480px”) {
+  body {
+    background: yellow;
+  }
+}
+
+.myClass a:link {
+  color: red;
+}
+.myClass a:visited {
+  color: purple;
+}
+.myClass a:hover {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=styles.css.map */
