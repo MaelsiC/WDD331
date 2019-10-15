@@ -1,0 +1,32 @@
+
+
+csslint: There are 6 problems in C:\Users\Maels\Desktop\WDD331\main.css.
+
+main.css
+1: warning at line 1, col 1
+@import prevents parallel downloads, use <link> instead.
+@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
+
+main.css
+2: warning at line 3, col 1
+The universal selector (*) is known to be slow.
+* {
+
+main.css
+3: warning at line 4, col 3
+The box-sizing property isn't supported in IE6 and IE7.
+  box-sizing: border-box;
+
+main.css
+4: warning at line 152, col 3
+Heading (h1) has already been defined.
+  h1 {
+
+main.css
+5: warning at line 192, col 5
+Using width with padding-left can sometimes make elements larger than you expect.
+    padding-left: 8vw;
+
+main.css
+6: warning
+You have 2 h1s defined in this stylesheet.

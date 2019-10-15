@@ -1,0 +1,82 @@
+
+
+csslint: There are 16 problems in C:\Users\Maels\Desktop\WDD331\main.css.
+
+main.css
+1: warning at line 1, col 1
+@import prevents parallel downloads, use <link> instead.
+@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
+
+main.css
+2: warning at line 3, col 1
+The universal selector (*) is known to be slow.
+* {
+
+main.css
+3: warning at line 4, col 3
+The box-sizing property isn't supported in IE6 and IE7.
+  box-sizing: border-box;
+
+main.css
+4: warning at line 20, col 1
+Rule doesn't have all its properties in alphabetical order.
+body {
+
+main.css
+5: warning at line 27, col 1
+Rule doesn't have all its properties in alphabetical order.
+header {
+
+main.css
+6: warning at line 60, col 1
+Rule doesn't have all its properties in alphabetical order.
+li a {
+
+main.css
+7: warning at line 76, col 1
+Rule is empty.
+main {
+
+main.css
+8: warning at line 82, col 1
+Rule doesn't have all its properties in alphabetical order.
+img {
+
+main.css
+9: warning at line 98, col 1
+Rule doesn't have all its properties in alphabetical order.
+article {
+
+main.css
+10: warning at line 141, col 3
+Rule doesn't have all its properties in alphabetical order.
+  header {
+
+main.css
+11: warning at line 153, col 3
+Heading (h1) has already been defined.
+  h1 {
+
+main.css
+12: warning at line 153, col 3
+Rule doesn't have all its properties in alphabetical order.
+  h1 {
+
+main.css
+13: warning at line 168, col 3
+Rule doesn't have all its properties in alphabetical order.
+  li > a {
+
+main.css
+14: warning at line 190, col 3
+Rule doesn't have all its properties in alphabetical order.
+  img {
+
+main.css
+15: warning at line 194, col 5
+Using width with padding-left can sometimes make elements larger than you expect.
+    padding-left: 8vw;
+
+main.css
+16: warning
+You have 2 h1s defined in this stylesheet.
