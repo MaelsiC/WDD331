@@ -1,3 +1,23 @@
+//variables
+$num-columns : 8;
+$one-column : 100% / $num_columns;
+$loop-start: 1;
+$loop-end: $num-columns +1;
+
+// //make column classes 
+// @for $index from $loop-start to $loop-end {
+//   .col-#{$index} {
+//     @include col($index);
+//   }
+// }
+    
+// //make offset classes
+// @for $index from $loop-start to $loop-end {
+//   .offset-#{$index} {
+//     @include offset($index);
+//   }
+// }
+
 //variables to setup basic size and shape of the card and pips
 $card-width: 40vw;
 $card-height: $card-width*1.4;
@@ -27,9 +47,6 @@ $icon-size: $card-width / 5;
     padding: .5em;
 }
 
-
-
-
 //set icon size
 .icon {
     width: $icon-size;
@@ -39,7 +56,6 @@ $icon-size: $card-width / 5;
 .number {
     text-align: center;
     font-size: $font-size-number;
-  //an icon that is part of a number should be half the normal size
     & > .icon {
         width: $icon-size * .5;
         height: $icon-size *.5;
@@ -51,7 +67,30 @@ $icon-size: $card-width / 5;
     transform: rotate(180deg);
 }
 
+
 .row {
-    display: flex;
-    flex-flow: row wrap;
-  }
+  display: flex;
+  flex-flow: row wrap;
+  align-content: space-between;
+  height: 100%;
+  align-items: center;
+    
+}
+.cell {
+  flex: 1;
+  text-align: center;
+}
+
+// //make column classes 
+// @for $index from 1 to 9 {
+// .col-#{$index} {
+//     @include col($index);
+// }
+// }
+
+// //make offset classes
+// @for $index from 1 to 9 {
+// .offset-#{$index} {
+//     @include offset($index);
+// }
+// }
