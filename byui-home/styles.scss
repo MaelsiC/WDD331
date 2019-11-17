@@ -1,0 +1,111 @@
+@import 'typography';
+@import 'icons';
+
+$sm-break: 48em;
+// colors
+$dark-gray: #727272;
+$med-gray: #b4b3b5;
+$light-gray: #eaeaea;
+$body-font: #020202;
+$link-blue: #0076b6; //why do we have both of these blues?
+$byui-blue: #056cb6;
+
+// Utility classes
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+
+//SMALL SCREEN!
+header {
+  background-color: #0076b6;
+  // height: 21.7vw;
+  margin: -2.5vw -3vw 0vw -4.5vw;
+}
+
+.site-banner {
+  display: flex;
+  // padding: 2vw;
+  align-items: center;
+}
+
+.site-banner__left {
+  font-size: 2em;
+  padding: .5em;
+  margin-left: 2vw;
+  background-color: #020202;
+}
+
+.site-banner__left a {
+  text-decoration: none;
+}
+
+.icon-byui-logo{
+  color: #eaeaea;
+}
+
+
+.site-banner__right {
+  font-size: 2.2em;
+  padding-left: 20vw;
+}
+
+.site-banner__right a {
+  text-decoration: none;
+}
+
+form {
+  display: none;
+}
+
+.mobile-header-icon {
+  color: #eaeaea;
+}
+
+
+
+// FOOTER
+// footer::before{
+//   background: $footer;
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
