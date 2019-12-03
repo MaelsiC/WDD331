@@ -35,7 +35,7 @@ img {
 
 //SMALL SCREEN!
 header {
-  background-color: #0076b6;
+  background-color: $byui-blue;
   // height: 21.7vw;
   margin: -2.5vw -3vw 0vw -4.5vw;
 }
@@ -50,7 +50,7 @@ header {
   font-size: 2em;
   padding: .5em;
   margin-left: 2vw;
-  background-color: #020202;
+  background-color: $body-font;
 }
 
 .site-banner__left a {
@@ -58,7 +58,7 @@ header {
 }
 
 .icon-byui-logo{
-  color: #eaeaea;
+  color: $light-gray;
 }
 
 
@@ -76,15 +76,8 @@ form {
 }
 
 .mobile-header-icon {
-  color: #eaeaea;
+  color: $light-gray;
 }
-
-
-
-// FOOTER
-// footer::before{
-//   background: $footer;
-// }
 
 
 
